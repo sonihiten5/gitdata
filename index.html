@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git hub</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+</head>
+
+<body>
+
+
+
+
+
+
+    <div class="container-fluid mt-2 p-5">
+        <div class="row m-auto">
+            <div class="col-lg-7 m-auto">
+                <form class="form-inline justify-content-center mt-3 mb-3">
+
+                    <div class="form-group mx-sm-3 mb-2">
+
+                        <input id="inputuser" type="text" class="form-control" id="git" placeholder="Enter Git ID">
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary mb-2 bg-dark">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-4 user-container">
+            <div class="col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-6  p-4">
+                        <img class="img-fluid user-img" id="userimage"
+                            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                            alt="">
+                    </div>
+                    <div class="col-lg-10 justify-content-center">
+                        <div class="text-center">
+                            <h5 id="gitname">-</h5>
+                        </div>
+                        <div class="text-center text-white" id="gitid">-</div>
+                    </div>
+                </div>
+                <div class="row justify-content-around p-4">
+                    <div class="text-center ">
+                        <i class="fa fa-user-friends text-white"> </i><span class="ml-1"> Followers</span>
+                        <div class="">
+                            <h4 class="text-white" id="follower">-</h4>
+                        </div>
+                    </div>
+                    <div class="text-center ">
+                        <i class="fa fa-user-plus text-white "></i><span class="ml-1"> Following</span>
+                        <div class="">
+                            <h4 class="text-white" id="following">-</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repositories -->
+            <div class="col-lg-8 p-5">
+                <div class="row">
+                    <h5>Popular Repositories</h5>
+                </div>
+                <div class="row repo__container mt-4">
+                    <div class="repo__box ">
+                        <div class="repo__item p-4">
+                            <div class="repo__name" id="reponame">-</div>
+                            <div class="repo__detail">
+                                <div class="repo__detail__star">
+                                    <i class="fa fa-star mr-2"></i>10
+                                </div>
+                                <div class="repo__detail__fork">
+                                    <i class="fa fa-code-branch mr-2 "></i>10
+                                </div>
+                                <div class="repo__detail__file">
+                                    <i class="fa fa-file mr-2"></i>10
+                                </div>
+                            </div>
+                    
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <script src="/src/app.js"></script>
+        <!-- BOOSTRAP  -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
+
+
